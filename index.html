@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Mi primera pagina web</title>
+</head>
+<body>
+    <!-- INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>ᵈᵉᵛ ⁞ ᴰᵃᵛᵒツ</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- iconos redes sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>David Pinchao</span>, Fotógrafo</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, debitis rerum dolore ad aliquid cumque facere porro eos voluptatibus</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>David Pinchao</span></h2>
+            <h3>Fotógrafo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus labore magnam doloremque quaerat ex.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus labore magnam doloremque quaerat ex.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-camera"></i></span>
+                <h4>Fotografía de Eventos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bodas</li>
+                    <li>Bautizos</li>
+                    <li>15 años</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam eligendi provident perferendis saepe</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-camera"></i></span>
+                <h4>Fotografía de Eventos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bodas</li>
+                    <li>Bautizos</li>
+                    <li>15 años</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam eligendi provident perferendis saepe</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-camera"></i></span>
+                <h4>Fotografía de Eventos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bodas</li>
+                    <li>Bautizos</li>
+                    <li>15 años</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam eligendi provident perferendis saepe</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-camera"></i></span>
+                <h4>Fotografía de Eventos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bodas</li>
+                    <li>Bautizos</li>
+                    <li>15 años</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam eligendi provident perferendis saepe</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-camera"></i></span>
+                <h4>Fotografía de Eventos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bodas</li>
+                    <li>Bautizos</li>
+                    <li>15 años</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam eligendi provident perferendis saepe</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-camera"></i></span>
+                <h4>Fotografía de Eventos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bodas</li>
+                    <li>Bautizos</li>
+                    <li>15 años</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam eligendi provident perferendis saepe</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class=""></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTAFOLIO -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/default1.png" alt="">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi corporis illo cumque quaerat modi, fugiat dolore</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/default2.JPG" alt="">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi corporis illo cumque quaerat modi, fugiat dolore</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/default3.JPG" alt="">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi corporis illo cumque quaerat modi, fugiat dolore</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/default4.JPG" alt="">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi corporis illo cumque quaerat modi, fugiat dolore</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/default5.JPG" alt="">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi corporis illo cumque quaerat modi, fugiat dolore</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/default6.JPG" alt="">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi corporis illo cumque quaerat modi, fugiat dolore</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTOS -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema ..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje ..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Todos los derechos de autor reservados - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
