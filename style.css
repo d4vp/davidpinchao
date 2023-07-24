@@ -279,8 +279,10 @@ html{
 }
 
 /* H A B I L I D A D E S */
+/*63E3D3*/
+/*FF5080*/
 .contenedor-skills {
-    background: linear-gradient(#FF5080, rgba(255, 80, 128, 0)), url("img/fondo-skills.jpg");
+    background: linear-gradient(#63E3D3, rgba(255, 80, 128, 0)), url("img/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
