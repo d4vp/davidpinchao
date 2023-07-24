@@ -280,7 +280,7 @@ html{
 
 /* H A B I L I D A D E S */
 .contenedor-skills {
-    background: linear-gradient(#63E3D3, rgba(99, 227, 211, 0)), url("img/fondo-skills.jpg");
+    background: linear-gradient(#FF5080, rgba(255, 80, 128, 0)), url("img/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
