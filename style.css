@@ -320,28 +320,28 @@ html{
 /* Estilo aplicado mediante javascript animacion de la barra */
 .contenedor-skills .skill .barra .barra-progreso1 {
     background-color: #fff;
-    width: 95%;
+    width: 60%;
     height: 6px;
     animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2 {
     background-color: #fff;
-    width: 90%;
+    width: 70%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso3 {
     background-color: #fff;
-    width: 90%;
+    width: 80%;
     height: 6px;
     animation: progreso3 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso4 {
     background-color: #fff;
-    width: 85%;
+    width: 80%;
     height: 6px;
     animation: progreso4 2s forwards;
 }
@@ -352,7 +352,7 @@ html{
         width: 0;
     }
     100% {
-        width: 95%;
+        width: 60%;
     }
 }
 
@@ -361,7 +361,7 @@ html{
         width: 0;
     }
     100% {
-        width: 90%;
+        width: 70%;
     }
 }
 
@@ -370,7 +370,7 @@ html{
         width: 0;
     }
     100% {
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -379,7 +379,7 @@ html{
         width: 0;
     }
     100% {
-        width: 85%;
+        width: 80%;
     }
 }
 
