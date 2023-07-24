@@ -38,3 +38,18 @@ function efectoHabilidades(){
         document.getElementById("picsart").classList.add("barra-progreso4");
     }
 }
+
+// Detectar si el navegador es Google Chrome
+const isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+
+// Mostrar el mensaje de advertencia como una alerta modal si el navegador no es Chrome
+if (!isChrome) {
+    const modal = document.getElementById("chrome-warning");
+    modal.style.display = "block";
+}
+
+// Función para cerrar el cuadro de diálogo modal
+function closeModal() {
+    const modal = document.getElementById("chrome-warning");
+    modal.style.display = "none";
+}
